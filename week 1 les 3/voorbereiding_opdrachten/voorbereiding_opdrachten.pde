@@ -17,19 +17,19 @@ void draw(){
 class Damsteen{
  int xpos;
  int ypos;
- color colour;
+ color Color;
  int diameter;
  
  Damsteen(int x,int y,color colour,int diameter){
    this.xpos = x;
    this.ypos = y;
-   this.colour = colour;
+   this.Color = colour;
    this.diameter = diameter;
  }
  
  void tekendamstenen(){
    
-   fill(this.colour);
+   fill(this.Color);
    ellipse(this.xpos,this.ypos,this.diameter,this.diameter);
  }
 }
