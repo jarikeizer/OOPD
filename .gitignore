@@ -3,3 +3,5 @@
 
 *.zip
 *.rar
+*.class
+*.DS_Store
